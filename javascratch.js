@@ -3,7 +3,7 @@ function destroy_actor(actor) {
 }
 
 function create_actor(){
-	return new Actor();	
+	return Actor;	
 }
 
 var Actor = {
