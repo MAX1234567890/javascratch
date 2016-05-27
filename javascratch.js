@@ -30,6 +30,10 @@ var Actor = {
 		location_x = goto_x;
 		location_y = goto_y;
 	},
+	setCanvas: function (new_canvas){
+		canvas = new_canvas;	
+		context = new_canvas.getContext("2D");
+	}
 };
 
 var cat = create_actor();

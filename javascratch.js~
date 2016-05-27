@@ -33,4 +33,4 @@ var Actor = {
 };
 
 var cat = create_actor();
-cat.image = new Image("https://upload.wikimedia.org/wikipedia/commons/d/d4/Scratchcat.svg");
+cat.init(0, 0, new Image("https://upload.wikimedia.org/wikipedia/commons/d/d4/Scratchcat.svg"), null);
